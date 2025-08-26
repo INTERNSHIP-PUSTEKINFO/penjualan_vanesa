@@ -88,7 +88,7 @@ define('DB_HOST', 'localhost');
 define('DB_NAME', 'sales_app');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('APP_URL', 'http://localhost/test');
+define('APP_URL', 'http://localhost/penjualan_vanesa');
 ```
 
 ### 4. Akses Aplikasi
@@ -226,60 +226,6 @@ Database sudah include sample data:
 5. Catat pembayaran
 6. Verifikasi totals update otomatis
 
-## 🚨 Troubleshooting
-
-### Common Issues
-
-1. **Database Connection Error**
-
-   - Check XAMPP MySQL service running
-   - Verify database credentials in `config.php`
-
-2. **Page Not Found**
-
-   - Ensure `.htaccess` not blocking
-   - Check file permissions
-
-3. **Foreign Key Error**
-   - Verify related records exist
-   - Check database constraints
-
-### Debug Mode
-
-```php
-// In config.php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-```
-
-## 🔮 Roadmap
-
-### Phase 2
-
-- [ ] User authentication & login system
-- [ ] Role-based menu access
-- [ ] Report generation (PDF/Excel)
-- [ ] Stock alerts & notifications
-
-### Phase 3
-
-- [ ] Multi-currency support
-- [ ] Tax calculation
-- [ ] Customer credit system
-- [ ] Advanced reporting
-
-## 📞 Support
-
-Untuk pertanyaan atau bug report:
-
-1. Check troubleshooting section
-2. Review error logs
-3. Verify database schema
-4. Test with sample data
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
