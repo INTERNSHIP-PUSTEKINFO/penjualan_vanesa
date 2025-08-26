@@ -94,7 +94,7 @@ define('APP_URL', 'http://localhost/test');
 ### 4. Akses Aplikasi
 
 ```
-http://localhost/test/
+http://localhost/penjualan_vanesa/
 ```
 
 ## 📁 Struktur File
